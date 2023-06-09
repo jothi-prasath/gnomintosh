@@ -1,6 +1,5 @@
-# Gnomintosh
 <div align="center">
-<img src=./images/gnomintosh.png></img>
+<img src="./images/gnomintosh.png" hight="250px" width="250px" style="padding: 20px 20px;"></img>
 </div>
 
 ## Screenshots

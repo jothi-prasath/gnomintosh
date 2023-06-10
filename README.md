@@ -42,19 +42,19 @@ Before installing and applying the Gnomintosh theme, ensure that the following r
 - The dconf editor, GNOME Tweaks, GNOME Extentions is installed. If it's not already installed, follow the instructions below based on your Linux distribution:
 
 ### Debian/Ubuntu
-To install dconf on Debian or Ubuntu, open a terminal and run the following command:
+To install on Debian or Ubuntu, open a terminal and run the following command:
 ```bash
 sudo apt update
 sudo apt install dconf-editor gnome-tweaks gnome-shell-extensions
 ```
 ### Fedora
-To install dconf on Fedora, open a terminal and run the following command:
+To install on Fedora, open a terminal and run the following command:
 ```bash
 sudo dnf install dconf-editor gnome-tweaks gnome-shell-extension
 ```
 
 ### Arch Linux
-To install dconf on Arch Linux, open a terminal and run the following command:
+To install on Arch Linux, open a terminal and run the following command:
 ```bash
 sudo pacman -Syu dconf gnome-tweaks gnome-shell-extensions
 ```

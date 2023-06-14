@@ -48,11 +48,12 @@ center-new-windows=true
 
 [org/gnome/shell/extensions/dash-to-dock]
 application-counter-overrides-notifications=true
-apply-custom-theme=true
+apply-custom-theme=false
 autohide=false
 autohide-in-fullscreen=false
-background-opacity=0.80000000000000004
+background-opacity=0.45000000000000001
 click-action='focus-minimize-or-previews'
+custom-background-color=false
 custom-theme-shrink=true
 customize-alphas=true
 dash-max-icon-size=43
@@ -60,18 +61,25 @@ disable-overview-on-startup=true
 dock-fixed=true
 dock-position='BOTTOM'
 height-fraction=1.0
+hide-tooltip=false
 hot-keys=false
 intellihide=true
 intellihide-mode='MAXIMIZED_WINDOWS'
 max-alpha=0.75
 min-alpha=0.40000000000000002
 multi-monitor=false
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
 preview-size-scale=0.0
+running-indicator-style='DOTS'
+scroll-to-focused-application=true
+show-apps-always-in-the-edge=true
 show-apps-at-top=false
 show-icons-emblems=true
 show-icons-notifications-counter=true
+show-running=true
 show-show-apps-button=true
-transparency-mode='DYNAMIC'
+transparency-mode='FIXED'
 
 [org/gnome/shell/extensions/just-perfection]
 activities-button=false

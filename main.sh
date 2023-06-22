@@ -4,7 +4,7 @@ user_name="$USER"
 
 # Cleaning previous directories
 echo "Cleaning directories..."
-rm WhiteSur* -rf &&
+#rm WhiteSur* -rf &&
 
 ## Cloning required files
 # GTK theme
@@ -16,7 +16,11 @@ git clone https://github.com/vinceliuice/WhiteSur-cursors.git --depth=1
 
 ## Installing theme ##
 # GTK theme
-WhiteSur-gtk-theme/install.sh -l -c Dark -c Light
+if [[ -f "$1" || "$1" = '-light' ]]; then
+  WhiteSur-gtk-theme/install.sh -l -c Light
+else
+  WhiteSur-gtk-theme/install.sh -l -c Dark
+fi
 WhiteSur-gtk-theme/tweaks.sh -F
 
 # Icons

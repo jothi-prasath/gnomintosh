@@ -114,6 +114,10 @@ If you are using the XFCE desktop environment, you can check out my other projec
 <img src="https://raw.githubusercontent.com/jothi-prasath/SmallSur/master/img/sample1.png"/>
 </a> </p>
 
+## Star
+
+![Stars](https://api.star-history.com/svg?repos=jothi-prasath/gnomintosh&type=Date)
+
 ## Contribute
 Contributions are welcome! If you would like to contribute to Gnomintosh, please follow these guidelines:
 

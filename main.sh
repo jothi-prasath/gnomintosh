@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 user_name="$USER"
 
 # Cleaning previous directories
 echo "Cleaning directories..."
-#rm WhiteSur* -rf &&
+rm WhiteSur* -rf
 
 ## Cloning required files
 # GTK theme

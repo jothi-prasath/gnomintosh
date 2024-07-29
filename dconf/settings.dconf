@@ -1,50 +1,14 @@
-[org/gnome/desktop/background]
-color-shading-type='solid'
-picture-options='zoom'
-primary-color='#241f31'
-secondary-color='#000000'
-
 [org/gnome/desktop/interface]
-can-change-accels=true
-clock-format='12h'
-clock-show-weekday=true
-color-scheme='prefer-dark'
-cursor-size=24
 cursor-theme='WhiteSur-cursors'
 document-font-name='SF Pro Display 13'
-enable-animations=true
-font-antialiasing='rgba'
-font-hinting='slight'
 font-name='SF Pro Display 13'
-gtk-color-scheme='green'
-gtk-key-theme='Default'
 gtk-theme='WhiteSur-Dark'
 icon-theme='WhiteSur-dark'
-menubar-detachable=false
 monospace-font-name='SF Pro Display 12'
-show-battery-percentage=true
-text-scaling-factor=1.0
-toolbar-style='text'
-
-[org/gnome/desktop/peripherals/mouse]
-accel-profile='adaptive'
-natural-scroll=false
-
-[org/gnome/desktop/peripherals/touchpad]
-accel-profile='adaptive'
-natural-scroll=true
-click-method='areas'
-tap-to-click=true
-two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/wm/preferences]
 button-layout='close,minimize,maximize:'
-focus-mode='click'
-mouse-button-modifier='<Alt>'
 titlebar-font='SF Pro Display 13'
-
-[org/gnome/mutter]
-center-new-windows=true
 
 [org/gnome/shell/extensions/dash-to-dock]
 application-counter-overrides-notifications=true
